@@ -27,8 +27,6 @@ html::-webkit-scrollbar-thumb{
     background: #fff;
     border-radius: 5rem;
 }
-
-
 @font-face {
     font-family: "letraCursiva";
     src: url(fonte/font.woff);
@@ -38,6 +36,12 @@ html::-webkit-scrollbar-thumb{
     font-family: "rebeca";
     src: url(fonte/rebeca\ \(2\).woff);
 }
+
+@font-face {
+    font-family: "american";
+    src: url(fonte/American.woff);
+}
+
 
 /*header*/
 
@@ -148,4 +152,61 @@ left: -80px;
     color: #fff;
     font-weight: 100;
     font-family: 'Poppins',sans-serif;
+}
+
+/*section one*/
+
+section.sectionone {
+    height: 600px;
+    background-image: url(img/fundolaranja.jpg);
+    background-size: cover;
+}
+
+section.sectionone .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 120px;
+    left: 450px;
+    width: 55%;
+    height: 420px;
+}
+
+section.sectionone .box h1{
+    font-size: 35px;
+    text-align: center;
+    color:#206650 ;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.sectionone .box h2{
+    font-family: 'rebeca';
+    font-size: 10px;
+    color:gray;
+}
+
+section.sectionone .box .prim_prgf{
+    font-size: 30px;
+    font-weight: 100;
+    color: #504a4a;
+    width: 600px;
+    font-family: 'american';
+}
+
+section.sectionone .box p{
+ width: 620px;
+ text-align: center;
+ font-weight: 100;
+ color: #504a4a;
+ font-family: 'Poppins',sans-serif;
+}
+
+section.sectionone .box  span{
+    color: #0e4232;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
 }
