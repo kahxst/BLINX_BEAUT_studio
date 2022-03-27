@@ -210,3 +210,72 @@ section.sectionone .box  span{
     font-weight: 500;
     font-size: 19px;
 }
+
+/*extensionista*/
+section.sectiontwo{
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ section.sectiontwo .box .moldura{
+    position: relative;
+    left: 200px;
+    top:100px;
+} 
+
+section.sectiontwo .box .foto{
+    position: relative;
+    left: 380px;
+    bottom: 350px;
+}
+
+section.sectiontwo .box2{
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+}
+
+section.sectiontwo .box2 h1:first-child{
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #0e4232;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 100;
+    letter-spacing: 1px;
+}
+
+section.sectiontwo .box2 h5{
+    font-family: 'american';
+    color: rgb(94, 91, 91);
+    font-weight: 100;
+    font-size: 18px;
+}
+
+section.sectiontwo .box2 .box_text .one{
+    margin-top: 20px;
+    font-family: 'poppins';
+    color: rgb(94, 91, 91);
+    font-weight: 100;
+}
+
+section.sectiontwo .box2 .box_text p{
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: rgb(94, 91, 91);
+}
+
+section.sectiontwo .box2 .box_text span{
+    color: rgb(94, 91, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+section.sectiontwo .box2 .box_text h1{
+   font-family: 'rebeca'; 
+   font-weight: 500;
+   margin-top: 30px;
+}
